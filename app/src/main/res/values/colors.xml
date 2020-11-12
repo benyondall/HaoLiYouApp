@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="content">#333333</color>
+    <color name="content_pale">#666</color>
+    <color name="content_pale_pale">#EEEEEE</color>
+    <color name="title">#1D1D1D</color>
+
+    <color name="tip_login">#66CC66</color>
+    <color name="tip_logout">#FF9A66</color>
+
+    <color name="red_content">#FF0000</color>
+
+    <color name="blue_pale_pale">#F1FFFF</color>
+    <color name="blue_grey">#789FE2</color>
+
+    <color name="tip_bottom_tip_background">#DDDDDD</color>
+    <color name="white">#FFFFFF</color>
+</resources>

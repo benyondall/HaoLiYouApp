@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_collection">Collection</string>
+    <string name="title_user">User</string>
+
+
+    <string name="login_button">Login/Register</string>
+    <string name="logout_button">Logout</string>
+    <string name="about_us_content">We don\'t sell merchandise, we\'re just porters of promotional information</string>
+    <string name="service_policy_button">Service-Policy</string>
+    <string name="privacy_policy_button">Privacy-Policy</string>
+    <string name="service_policy_content">1. Your use of this website must comply with national laws and policies, and you must use the service with the knowledge and consent of smartphone users.
+        \n\n\n2. "On Sale Every Day" is a free service and you should have the necessary conditions for the operation of this product. At the same time, we should ensure the leg ality and legitimacy of our use. The software shall not be decompiled, disassembled, cracked, etc.
+        \n\n\n3. For services and files that have not been reviewed by the author, your download, installation and use of such information may cause unpredictable risks. All legal liabilities and disputes arising therefrom are irrelevant to the site, and the site is not responsible for any All legal responsibilities.
+        \n\n\nThis "On Sale Every Day Use Agreement" can be updated by the website author at any time. Once the updated agreement terms are announced, they will replace t he original agreement terms without further notice. You can check the relevant terms on the official website of On Sale Every Day.
+        \n\n\nAfter the website author modifies the terms of the Agreement, if you do not accept the revised terms, you can immediately stop using the related services, and you r continued use of the services will be deemed to have accepted the revised agreements.</string>
+<string name="privacy_policy_content" tools:ignore="TypographyOther">
+    We are committed to safeguarding the privacy of our visitors, this policy establishes how we will treat your personal information.
+    \n\n(1) What information is collected? We may collect, store and use the following types of personal data:
+    \n\n(a) information about your equipment and about your visits and the use of this website (including your IP address, geographic location, type of browser, source of reference, the duration of the visit and the number of pages visited);
+    \n\n(b) information that you provide to us in order to register with us (including your personal data and email address); © information that you provide to us in order to subscribe to our Web services, email notifications and / or newsletters (including your personal data and email address);
+    \n\n(d) any other information that you decide to send us;
+    \n\n(2) Cookies A cookie consists of the information sent by a Web server to a Web browser, and that is stored by the browser. The information is sent back to the server each time the browser requests a page from the server. This allows the Web s erver to identify and track the web browser. We may use session cookies and "permanent" cookies on the website. We will use session cookies to: keep track of you while browsing the web; We will use permanent cookies to: allow our website t o recognize you when you visit us, and store data from your latest gaming sessions. Session cookies will be deleted from your computer when you close the browser.
+    \n\nPermanent cookies will remain stored on your computer until they are deleted, or until they reach a certain expiration date.
+    \n\nWe use Google Analytics to analyze the use of this website. Google Analytics generates statistical and other information about the use of the website through cookies, which are stored on users\' computers. The information generated in relation t o our website is used to create reports on the use of the website. Google will store this information.
+    \n\nGoogle’s privacy policy is available at: http://www.google.com/privacypolicy.html. Our advertisers and payment service providers may also send you cookies. Most browsers allow you to refuse cookies. (For example, in Internet Explorer, you ca n refuse all cookies by clicking on "Tools", "Internet Options", "Privacy", and selecting the "Block all cookies" option using the slide selector.) This, however , will have a negative impact on the usefulness of many websites.
+    \n\n(3) Use of your personal data Personal data sent to this website will be used for the purposes specified in this privacy policy or in the relevant parts of the website. We may use your personal information to:
+    \n\n(a) administer the website;
+    \n\n(b) improve your browsing experience by customizing the website;
+    \n\n(c) allow the use of the services available on the website;
+    \n\n(d) send the goods acquired through the website, and provide the services acquired through the website;
+    \n\n(f) sending general (non-commercial) commercial communications;
+    \n\n(g) the sending of email notifications that you have specifically requested;
+    \n\n(h) send our newsletter and game updates, marketing communications related to our business or third-party companies that have been carefully selected and that we think may be of interest to you, by mail or, where you have given your express consent for this, by email or similar technology (you can contact us at any time if you no longer wish to receive marketing communications);
+    \n\n(i) provide third parties with statistical information about our users - but this information will not be used to identify any individual user;
+    \n\n(j) respond to inquiries and complaints made or related to you about the website; When you send us personal information for publication on our website, such information will be published and used in accordance with the license granted to us. We will not provide your personal information to third parties for the purpose of direct marketing without your express consent.
+    \n\n(4) Disclosure We may disclose information about you to [any of our employees, officers, agents, suppliers or subcontractors] to the extent deemed reasonably necessary for the purposes set forth in this privacy policy. In addition, we may disclo se information about you:
+
+
+
+</string>
+    <string name="tip_contact_us">Note: Please kindly contact us by email</string>
+    <string name="contact_us_content">Our Email Address: oseveryday@gmial.com</string>
+    <string name="no_content">There is no content yet</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_tip"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/tip_bottom_tip_background"-->
+<!--        android:padding="@dimen/dp_5"-->
+<!--        android:text="Confirm to unfollow?"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/title"-->
+<!--        android:textSize="@dimen/sp_13" />-->
+    <Button
+        android:id="@+id/bt_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/selector_fillet_button_black"
+        android:text="Take a picture now"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_12" />
+    <Button
+        android:id="@+id/bt_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/selector_fillet_button_black"
+        android:text="Album"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_12" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_7"
+        android:background="@drawable/selector_fillet_button_black"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textSize="@dimen/sp_12" />
+</LinearLayout>

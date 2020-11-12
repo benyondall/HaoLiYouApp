@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_centerVertical="true"/>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iv_head"
+        android:text="Jason"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:layout_alignTop="@id/iv_head"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+
+    <Button
+        android:id="@+id/bt_following"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:background="@drawable/selector_fillet_button_black"
+        android:text="√Following"
+        android:textAlignment="center"
+        android:textColor="@color/title"
+        android:textSize="@dimen/sp_8"
+        android:layout_centerVertical="true"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

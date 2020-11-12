@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"
+        android:layout_margin="@dimen/dp_6"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_head"
+        android:layout_marginStart="@dimen/dp_2"
+        android:layout_toEndOf="@id/iv_head"
+        android:text="Jason"
+        android:textColor="@color/title"
+        android:textSize="@dimen/sp_11"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_2"
+        android:layout_toEndOf="@id/iv_head"
+        android:text="$9.00"
+        android:textColor="@color/red_content"
+        android:textSize="@dimen/sp_11"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_money_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_5"
+        android:layout_toEndOf="@id/tv_money"
+        android:text="$10.00"
+        android:textAllCaps="false"
+        android:textColor="@color/content"
+        android:textSize="@dimen/sp_10" />
+
+
+    <TextView
+        android:id="@+id/tv_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_head"
+        android:layout_marginStart="@dimen/dp_2"
+        android:layout_marginTop="@dimen/dp_7"
+        android:layout_toEndOf="@id/iv_head"
+        android:text="Jason | Jason"
+        android:textColor="@color/content"
+        android:textSize="@dimen/sp_9" />
+
+
+    <TextView
+        android:id="@+id/tv_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_head"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_7"
+        android:text="0.7W"
+        android:textColor="@color/content"
+        android:textSize="@dimen/sp_9"
+        android:layout_marginEnd="@dimen/dp_10"/>
+
+    <TextView
+        android:id="@+id/tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_head"
+        android:layout_marginTop="@dimen/dp_7"
+        android:layout_toStartOf="@id/tv_reply"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:text="1.3w"
+        android:textColor="@color/content"
+        android:textSize="@dimen/sp_9" />
+
+</RelativeLayout>

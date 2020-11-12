@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle" >
+            <!-- 填充的颜色 -->
+            <solid android:color="#FFFFFF"></solid>
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="15dip" />
+            <!-- stroke 设置边框显示 -->
+            <stroke
+                android:dashGap="0dp"
+                android:width="1dp"
+                android:color="#E1FF5722" />
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding android:bottom="1dp" android:left="5dp" android:right="5dp" android:top="1dp" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle" >
+            <!-- 填充的颜色 -->
+            <solid android:color="#FFFFFF"></solid>
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="16dip" />
+            <!-- stroke 设置边框显示 -->
+            <stroke
+                android:dashGap="0dp"
+                android:width="1dp"
+                android:color="#FF5722" />
+            <!-- padding：Button里面的文字与Button边界的间隔 -->
+            <padding android:bottom="1dp" android:left="5dp" android:right="5dp" android:top="1dp" />
+        </shape>
+    </item>
+
+</selector>
